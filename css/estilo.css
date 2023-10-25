@@ -1,0 +1,71 @@
+:root {
+    --cor1: #FFFFFF;
+    --cor2: #C9C9C9;
+    --cor3: #4C7479;
+    --cor4: #005F6B;
+    --cor5: #343838;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #C9C9C9;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 2%;
+}
+
+.topBarra {
+    width: 100%;
+    background-color: var(--cor4);
+
+    display: flex;
+    flex-direction: row;
+}
+
+.topBarra p {
+    margin: auto 0;
+    margin-left: 10px;
+    color: var(--cor1);
+    font-size: 35px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+}
+
+label {
+    width: 30%;
+    margin: 0 2%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    background-color: var(--cor3) !important;
+    color: white !important;
+}
+
+input::placeholder {
+    color: white !important;
+}
+button{
+    background-color: var(--cor5);
+    border-radius: 20px;
+    align-items: center;
+    color: #FFFFFF;
+    height: 40px; /*altera a altura do botão*/
+    width: 250px; /*altera a largurado botão*/
+    font-size: 25px;
+}
